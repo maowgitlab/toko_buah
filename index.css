@@ -1,0 +1,143 @@
+body{
+  background-image: url("Icon/terapung.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.topnav {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgb(98, 167, 212);
+}
+.topnav a {
+  border-right: 2px solid black;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #1585bd;
+  color: white;
+}
+.badan{
+  border-radius: 5px;
+  margin-top: 70px;
+  margin-left: 130px;
+  word-wrap: break-word;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid #ccc;
+  width: 80%;
+  height: auto;
+}
+div.gallery {
+  border-radius: 10px;
+  margin: 30px 10px;
+  border: 4px solid #ccc;
+  float: left;
+  height: 300px;
+  width: 220px;
+}
+
+div.gallery:hover {
+  box-shadow: 0 0 20px;
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  border-bottom: 4px solid #ccc;
+}
+
+div.desc a {
+  border-radius: 3px;
+  text-decoration: none;
+  margin-left: 50px;
+  padding: 10px 10px;
+  background-color: blue;
+  color: white;
+}
+div.desc a:hover {
+  background-color: #38488a;
+}
+.detail{
+  padding: 10px 0;
+  width: 100%;
+  background-color: rgba(123, 201, 86, 0.87);
+}
+.txt{
+  margin-left: 5px;
+  word-wrap: break-word;
+  width: 30em;
+  text-align: justify;
+}
+.form-login{
+    width: 390px;
+    padding: 20px 40px;
+    margin: 200px auto;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 60px;
+    border-radius: 5px;
+    background-color: rgb(231, 230, 230);
+}
+.form-login .isi-form{
+    border-radius: 5px;
+    border: 2px solid grey;
+    width: 95%;
+    padding: 10px;
+}
+.btn{
+    border-radius: 5px;
+    border: none;
+    width: 393px;
+    padding: 10px;
+    background-color: lightblue;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: lightsteelblue;
+}
+.text{
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+div.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.form-text, .form-number, select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(74, 167, 196);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+/* Button tambah */
+.btn-tambah {
+  font-weight: bold;
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-tambah:hover {
+  background-color: #45a049;
+}

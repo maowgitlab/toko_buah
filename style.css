@@ -1,0 +1,202 @@
+table{
+  border-color: red;
+}
+table th{
+  border-bottom: 5px solid blue;
+  background-color: rgb(39, 162, 92);
+}
+table td{
+  background-color: rgb(165, 203, 203);
+  text-align: center;
+}
+.header{
+  width: 100%;
+  height: 90px;
+  background-color: #629fb3;
+  float: left;
+}
+.sidebar{
+    width: 20%;
+    height: 700px;
+    background-color: #243237;
+    float: left;
+}
+.body{
+  width: 80%;
+  height: 700px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+}
+.footer{
+  width: 100%;
+  height: 70px;
+  background-color: rgb(198, 200, 81);
+  float: left;
+}
+.btn-group .btnn{
+    color: white;
+    border: none;
+    background-color: rgb(97, 119, 122);
+    text-align: center;
+    padding: 10px 20px;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.btnn:hover{
+    background-color: rgb(96, 96, 96);
+}
+.sidebar .status{
+  border: 1px solid black;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+/* Pencarian */
+.pencarian{
+  padding: 10px 28px;
+}
+.pencarian .cari{
+  padding: 5px 10px;
+  width: 50px;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+.pencarian .cari:focus{
+  width: 100px;
+}
+.pencarian .btn-cari{
+  border: none;
+  background-repeat: no-repeat;
+  background-image: url("Icon/cari.png");
+  cursor: pointer;
+  padding: 5px 10px;
+}
+/* Artikel */
+div.gallery {
+  border-radius: 10px;
+  margin: 50px 10px;
+  border: 4px solid #ccc;
+  float: left;
+  height: 300px;
+  width: 220px;
+}
+
+div.gallery:hover {
+  box-shadow: 0 0 20px;
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  border-bottom: 4px solid #ccc;
+}
+
+div.desc a {
+  border-radius: 3px;
+  text-decoration: none;
+  margin-left: 50px;
+  padding: 10px 10px;
+  background-color: blue;
+  color: white;
+}
+div.desc a:hover {
+  background-color: #38488a;
+}
+.form-text, .form-number, select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(74, 167, 196);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+/* Button tambah */
+.btn-tambah {
+  font-weight: bold;
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-tambah:hover {
+  background-color: #45a049;
+}
+
+div.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.btn-link{
+  border-right-width: medium;
+  border-right: 1px solid black;
+}
+.btn-add{
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 26px;
+  padding: 8px 20px;
+  color: white;
+  background-color: blue;
+}
+.btn-add:hover{
+  background-color: rgb(78, 90, 148);
+}
+.btn-cetak{
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 26px;
+  padding: 8px 20px;
+  color: black;
+  background-color: rgb(124, 136, 142);
+}
+.btn-cetak:hover{
+  background-color: rgb(97, 97, 97);
+}
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: rgb(134, 134, 134);
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: rgb(161, 161, 161);
+}
+.form-radio:checked
+{
+     background-color: rgb(90, 166, 159);
+}
+.keuntungan{
+  padding: 1px 0;
+  background-color: lightgreen;
+}
